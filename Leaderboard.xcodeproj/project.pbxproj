@@ -13,6 +13,17 @@
 		649A2D8A2A3B06D900493E53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649A2D892A3B06D900493E53 /* Preview Assets.xcassets */; };
 		649A2D912A3B073200493E53 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649A2D902A3B073200493E53 /* Account.swift */; };
 		649A2D942A3B083F00493E53 /* LeaderboardProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649A2D932A3B083F00493E53 /* LeaderboardProvider.swift */; };
+		649A2DB22A3B1D4D00493E53 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 649A2DA92A3B1D4C00493E53 /* Inter-Thin.ttf */; };
+		649A2DB32A3B1D4D00493E53 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 649A2DAA2A3B1D4C00493E53 /* Inter-Bold.ttf */; };
+		649A2DB42A3B1D4D00493E53 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 649A2DAB2A3B1D4C00493E53 /* Inter-Black.ttf */; };
+		649A2DB52A3B1D4D00493E53 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 649A2DAC2A3B1D4C00493E53 /* Inter-Light.ttf */; };
+		649A2DB62A3B1D4D00493E53 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 649A2DAD2A3B1D4C00493E53 /* Inter-ExtraLight.ttf */; };
+		649A2DB72A3B1D4D00493E53 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 649A2DAE2A3B1D4C00493E53 /* Inter-Regular.ttf */; };
+		649A2DB82A3B1D4D00493E53 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 649A2DAF2A3B1D4D00493E53 /* Inter-Medium.ttf */; };
+		649A2DB92A3B1D4D00493E53 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 649A2DB02A3B1D4D00493E53 /* Inter-SemiBold.ttf */; };
+		649A2DBA2A3B1D4D00493E53 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 649A2DB12A3B1D4D00493E53 /* Inter-ExtraBold.ttf */; };
+		649A2DBD2A3B224F00493E53 /* Font+Inter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649A2DBC2A3B224F00493E53 /* Font+Inter.swift */; };
+		649A2DBF2A3B24AA00493E53 /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649A2DBE2A3B24AA00493E53 /* TabsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +34,18 @@
 		649A2D892A3B06D900493E53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		649A2D902A3B073200493E53 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		649A2D932A3B083F00493E53 /* LeaderboardProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardProvider.swift; sourceTree = "<group>"; };
+		649A2DA92A3B1D4C00493E53 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		649A2DAA2A3B1D4C00493E53 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		649A2DAB2A3B1D4C00493E53 /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		649A2DAC2A3B1D4C00493E53 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		649A2DAD2A3B1D4C00493E53 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		649A2DAE2A3B1D4C00493E53 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		649A2DAF2A3B1D4D00493E53 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		649A2DB02A3B1D4D00493E53 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		649A2DB12A3B1D4D00493E53 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		649A2DBB2A3B1FDC00493E53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		649A2DBC2A3B224F00493E53 /* Font+Inter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Inter.swift"; sourceTree = "<group>"; };
+		649A2DBE2A3B24AA00493E53 /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +62,7 @@
 		649A2D762A3B06D700493E53 = {
 			isa = PBXGroup;
 			children = (
+				649A2DA82A3B1D0400493E53 /* Fonts */,
 				649A2D812A3B06D700493E53 /* Leaderboard */,
 				649A2D802A3B06D700493E53 /* Products */,
 			);
@@ -55,12 +79,15 @@
 		649A2D812A3B06D700493E53 /* Leaderboard */ = {
 			isa = PBXGroup;
 			children = (
+				649A2DBB2A3B1FDC00493E53 /* Info.plist */,
+				649A2D932A3B083F00493E53 /* LeaderboardProvider.swift */,
 				649A2D822A3B06D700493E53 /* LeaderboardApp.swift */,
-				649A2D952A3B13BD00493E53 /* Views */,
+				649A2D842A3B06D700493E53 /* LeaderBoardView.swift */,
+				649A2DBE2A3B24AA00493E53 /* TabsView.swift */,
 				649A2D922A3B080200493E53 /* Models */,
 				649A2D862A3B06D900493E53 /* Assets.xcassets */,
 				649A2D882A3B06D900493E53 /* Preview Content */,
-				649A2D932A3B083F00493E53 /* LeaderboardProvider.swift */,
+				649A2DBC2A3B224F00493E53 /* Font+Inter.swift */,
 			);
 			path = Leaderboard;
 			sourceTree = "<group>";
@@ -81,12 +108,20 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		649A2D952A3B13BD00493E53 /* Views */ = {
+		649A2DA82A3B1D0400493E53 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				649A2D842A3B06D700493E53 /* LeaderBoardView.swift */,
+				649A2DAB2A3B1D4C00493E53 /* Inter-Black.ttf */,
+				649A2DAA2A3B1D4C00493E53 /* Inter-Bold.ttf */,
+				649A2DB12A3B1D4D00493E53 /* Inter-ExtraBold.ttf */,
+				649A2DAD2A3B1D4C00493E53 /* Inter-ExtraLight.ttf */,
+				649A2DAC2A3B1D4C00493E53 /* Inter-Light.ttf */,
+				649A2DAF2A3B1D4D00493E53 /* Inter-Medium.ttf */,
+				649A2DAE2A3B1D4C00493E53 /* Inter-Regular.ttf */,
+				649A2DB02A3B1D4D00493E53 /* Inter-SemiBold.ttf */,
+				649A2DA92A3B1D4C00493E53 /* Inter-Thin.ttf */,
 			);
-			path = Views;
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +183,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				649A2D8A2A3B06D900493E53 /* Preview Assets.xcassets in Resources */,
+				649A2DBA2A3B1D4D00493E53 /* Inter-ExtraBold.ttf in Resources */,
 				649A2D872A3B06D900493E53 /* Assets.xcassets in Resources */,
+				649A2DB42A3B1D4D00493E53 /* Inter-Black.ttf in Resources */,
+				649A2DB62A3B1D4D00493E53 /* Inter-ExtraLight.ttf in Resources */,
+				649A2DB32A3B1D4D00493E53 /* Inter-Bold.ttf in Resources */,
+				649A2DB52A3B1D4D00493E53 /* Inter-Light.ttf in Resources */,
+				649A2DB72A3B1D4D00493E53 /* Inter-Regular.ttf in Resources */,
+				649A2DB22A3B1D4D00493E53 /* Inter-Thin.ttf in Resources */,
+				649A2DB92A3B1D4D00493E53 /* Inter-SemiBold.ttf in Resources */,
+				649A2DB82A3B1D4D00493E53 /* Inter-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,9 +203,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				649A2DBF2A3B24AA00493E53 /* TabsView.swift in Sources */,
 				649A2D942A3B083F00493E53 /* LeaderboardProvider.swift in Sources */,
 				649A2D852A3B06D700493E53 /* LeaderBoardView.swift in Sources */,
 				649A2D832A3B06D700493E53 /* LeaderboardApp.swift in Sources */,
+				649A2DBD2A3B224F00493E53 /* Font+Inter.swift in Sources */,
 				649A2D912A3B073200493E53 /* Account.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +339,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Leaderboard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Leaderboard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -321,6 +368,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Leaderboard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Leaderboard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
