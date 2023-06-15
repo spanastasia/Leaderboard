@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		649A2D832A3B06D700493E53 /* LeaderboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649A2D822A3B06D700493E53 /* LeaderboardApp.swift */; };
-		649A2D852A3B06D700493E53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649A2D842A3B06D700493E53 /* ContentView.swift */; };
+		649A2D852A3B06D700493E53 /* LeaderBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649A2D842A3B06D700493E53 /* LeaderBoardView.swift */; };
 		649A2D872A3B06D900493E53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649A2D862A3B06D900493E53 /* Assets.xcassets */; };
 		649A2D8A2A3B06D900493E53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 649A2D892A3B06D900493E53 /* Preview Assets.xcassets */; };
+		649A2D912A3B073200493E53 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649A2D902A3B073200493E53 /* Account.swift */; };
+		649A2D942A3B083F00493E53 /* LeaderboardProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649A2D932A3B083F00493E53 /* LeaderboardProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		649A2D7F2A3B06D700493E53 /* Leaderboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leaderboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		649A2D822A3B06D700493E53 /* LeaderboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardApp.swift; sourceTree = "<group>"; };
-		649A2D842A3B06D700493E53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		649A2D842A3B06D700493E53 /* LeaderBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderBoardView.swift; sourceTree = "<group>"; };
 		649A2D862A3B06D900493E53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		649A2D892A3B06D900493E53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		649A2D902A3B073200493E53 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		649A2D932A3B083F00493E53 /* LeaderboardProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +56,11 @@
 			isa = PBXGroup;
 			children = (
 				649A2D822A3B06D700493E53 /* LeaderboardApp.swift */,
-				649A2D842A3B06D700493E53 /* ContentView.swift */,
+				649A2D952A3B13BD00493E53 /* Views */,
+				649A2D922A3B080200493E53 /* Models */,
 				649A2D862A3B06D900493E53 /* Assets.xcassets */,
 				649A2D882A3B06D900493E53 /* Preview Content */,
+				649A2D932A3B083F00493E53 /* LeaderboardProvider.swift */,
 			);
 			path = Leaderboard;
 			sourceTree = "<group>";
@@ -65,6 +71,22 @@
 				649A2D892A3B06D900493E53 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		649A2D922A3B080200493E53 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				649A2D902A3B073200493E53 /* Account.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		649A2D952A3B13BD00493E53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				649A2D842A3B06D700493E53 /* LeaderBoardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				649A2D852A3B06D700493E53 /* ContentView.swift in Sources */,
+				649A2D942A3B083F00493E53 /* LeaderboardProvider.swift in Sources */,
+				649A2D852A3B06D700493E53 /* LeaderBoardView.swift in Sources */,
 				649A2D832A3B06D700493E53 /* LeaderboardApp.swift in Sources */,
+				649A2D912A3B073200493E53 /* Account.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
