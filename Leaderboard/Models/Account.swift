@@ -7,10 +7,16 @@
 
 import Foundation
 
+enum LeaderboardStatus {
+    case moveUp
+    case moveDown
+}
+
 struct Account: Identifiable {
     let id: String
     let name: String
     let userName: String
     let score: Int
     let avatarURL: URL?
+    let staus: LeaderboardStatus
 }
